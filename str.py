@@ -12,3 +12,8 @@ def ch_case(s):
         return "Малі"
     else:
         return "Змішані"
+
+def uppercase_let(word):
+    if not isinstance(word, str):
+        return "Очікується string"
+    return [char.upper() for char in word]
